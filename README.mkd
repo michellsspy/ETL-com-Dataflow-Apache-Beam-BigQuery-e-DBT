@@ -3,17 +3,85 @@
 > 03/08/2024
 ---
 
-### Módulo 1
-- Criando a conta google
+### ETL Ponta a Ponta - Módulo 1: Introdução e Preparativos
+- Criando a conta Google
 - Acessando o GCP
-- Conhecendo o Dataflow
+- Conhecendo as ferramentas do projeto (Dataflow, Apache Beam, BigQuery, DBT)
 
-### Módulo 2
-- Preparando o Ambiente
-- Instalando as API's
+### ETL Ponta a Ponta - Módulo 2: Configuração do Ambiente
+- Preparando o ambiente
+- Instalando as APIs necessárias
 - Listando as permissões
-- Crando a servece account e a key
+- Criando a service account e a key
 
-### Módulo 3 
-- Conhecendo a Secret Manager
+### ETL Ponta a Ponta - Módulo 3: Gerenciamento de Segredos
+- Conhecendo o Secret Manager
 - Criando a primeira secret
+- Integrando a secret
+
+### ETL Ponta a Ponta - Módulo 4: Introdução ao Dataflow
+- Conhecendo o Dataflow
+- Documentação do Dataflow
+- Casos de uso do Dataflow
+
+### ETL Ponta a Ponta - Módulo 5: Introdução ao Apache Beam
+- Conhecendo o Apache Beam
+- Documentação do Apache Beam
+- Casos de uso do Apache Beam
+
+### ETL Ponta a Ponta - Módulo 6: Primeiros Passos com Apache Beam e Dataflow
+- Iniciando o pipeline
+- Recuperando as secrets
+- Configurando as options
+- Criando a primeira PCollection
+
+### ETL Ponta a Ponta - Módulo 7: Estruturação do Pipeline de Dados
+- Entendendo as camadas Transient, Raw, Trusted e Refined
+
+### ETL Ponta a Ponta - Módulo 8: Implementação das Camadas de Dados
+- Criando o script para as camadas Transient e Raw
+- Implementando boas práticas de codificação
+
+### ETL Ponta a Ponta - Módulo 9: Introdução ao DBT
+- Conhecendo o DBT
+- Criando uma conta no DBT
+- Documentação do DBT
+- Casos de uso do DBT
+
+### ETL Ponta a Ponta - Módulo 10: Introdução ao BigQuery
+- Conhecendo o BigQuery
+- Criando uma conta no BigQuery
+- Documentação do BigQuery
+- Casos de uso do BigQuery
+
+### ETL Ponta a Ponta - Módulo 11: Transformação e Carregamento de Dados
+- Transformando os dados na camada Trusted
+- Carregando os dados no BigQuery
+
+### ETL Ponta a Ponta - Módulo 12: Modelagem Dimensional e Carregamento na Camada Refined
+- Introdução ao modelo Star Schema
+- Criando dimensões
+- Criando tabelas de fatos
+
+### ETL Ponta a Ponta - Módulo 13: Monitoramento e Manutenção
+- Configurando alertas e monitoramento
+- Manutenção do pipeline ETL
+- Boas práticas de manutenção e documentação
+
+### ETL Ponta a Ponta - Módulo 14: Projetos Práticos e Casos de Uso
+- Implementando um projeto ETL do início ao fim
+- Análise de casos de uso reais
+- Desafios e soluções comuns em projetos ETL
+
+### Considerações Finais
+- Revisão do conteúdo abordado
+- Discussão sobre futuras tendências e tecnologias em ETL
+- Recursos adicionais e leituras recomendadas
+
+### Observações Gerais
+- Certifique-se de incluir exemplos práticos e exercícios ao longo de cada módulo.
+- Considere adicionar vídeos tutoriais e demonstrações ao vivo para facilitar a compreensão.
+- Disponibilize um fórum ou canal de comunicação para dúvidas e discussões entre os participantes.
+
+
+
