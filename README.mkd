@@ -2,6 +2,9 @@
 ## Michel Souza
 > 03/08/2024
 ---
+GitHub 
+https://github.com/michellsspy/ETL-com-Dataflow-Apache-Beam-BigQuery-e-DBT.git
+---
 
 ### ETL Ponta a Ponta - Módulo 1: Introdução e Preparativos
 - Criando a conta Google
