@@ -1,0 +1,19 @@
+# ETL com Dataflow, Apache Beam, BigQuery e DBT
+## Michel Souza
+> 03/08/2024
+---
+
+### Módulo 1
+- Criando a conta google
+- Acessando o GCP
+- Conhecendo o Dataflow
+
+### Módulo 2
+- Preparando o Ambiente
+- Instalando as API's
+- Listando as permissões
+- Crando a servece account e a key
+
+### Módulo 3 
+- Conhecendo a Secret Manager
+- Criando a primeira secret
