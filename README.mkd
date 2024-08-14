@@ -21,11 +21,11 @@ https://github.com/michellsspy/ETL-com-Dataflow-Apache-Beam-BigQuery-e-DBT.git
 - Conectar o DBeaver ao banco Postgres
 - Criando o banco de dados
 
-### ETL Ponta a Ponta - Módulo 3: Configuração do Ambiente
-- Preparando o ambiente
-- Instalando as APIs necessárias
-- Listando as permissões
+### ETL Ponta a Ponta - Módulo 3: Configuração do Ambiente de desenvolvimento
+- Preparando o ambiente, instalando VSCode localmente
+- Instalando as APIs necessárias no GCP
 - Criando a service account e a key
+- Listando as permissões
 
 ### ETL Ponta a Ponta - Módulo 4: Gerenciamento de Segredos
 - Conhecendo o Secret Manager
