@@ -14,72 +14,76 @@ https://github.com/michellsspy/ETL-com-Dataflow-Apache-Beam-BigQuery-e-DBT.git
 - Criando a conta Google
 - Acessando o GCP
 - Habilitando o Free Trial
-- Conhecendo as ferramentas do projeto (Dataflow, Apache Beam, BigQuery, DBT)
 
-### ETL Ponta a Ponta - Módulo 2: Configuração do Ambiente
+### ETL Ponta a Ponta - Módulo 2: Criando o banco de dados Postegrees
+- Criando a vm
+- Instalando o banco Postegrees
+- Criando o banco de dados
+
+### ETL Ponta a Ponta - Módulo 3: Configuração do Ambiente
 - Preparando o ambiente
 - Instalando as APIs necessárias
 - Listando as permissões
 - Criando a service account e a key
 
-### ETL Ponta a Ponta - Módulo 3: Gerenciamento de Segredos
+### ETL Ponta a Ponta - Módulo 4: Gerenciamento de Segredos
 - Conhecendo o Secret Manager
 - Criando a primeira secret
 - Integrando a secret
 
-### ETL Ponta a Ponta - Módulo 4: Introdução ao Dataflow
+### ETL Ponta a Ponta - Módulo 5: Introdução ao Dataflow
 - Conhecendo o Dataflow
 - Documentação do Dataflow
 - Casos de uso do Dataflow
 
-### ETL Ponta a Ponta - Módulo 5: Introdução ao Apache Beam
+### ETL Ponta a Ponta - Módulo 6: Introdução ao Apache Beam
 - Conhecendo o Apache Beam
 - Documentação do Apache Beam
 - Casos de uso do Apache Beam
 
-### ETL Ponta a Ponta - Módulo 6: Primeiros Passos com Apache Beam e Dataflow
+### ETL Ponta a Ponta - Módulo 7: Primeiros Passos com Apache Beam e Dataflow
 - Iniciando o pipeline
 - Recuperando as secrets
 - Configurando as options
 - Criando a primeira PCollection
 
-### ETL Ponta a Ponta - Módulo 7: Estruturação do Pipeline de Dados
+### ETL Ponta a Ponta - Módulo 8: Estruturação do Pipeline de Dados
 - Entendendo a camada Transient 
 - Entendendo a camada Raw 
 - Entendendo a camada Trusted 
 - Entendendo a camada Refined
 
-### ETL Ponta a Ponta - Módulo 8: Implementação das Camadas de Dados
+### ETL Ponta a Ponta - Módulo 9: Implementação das Camadas de Dados
 - Criando o script para as camadas Transient e Raw
 - Implementando boas práticas de codificação
 
-### ETL Ponta a Ponta - Módulo 9: Introdução ao DBT
+### ETL Ponta a Ponta - Módulo 10: Introdução ao DBT
 - Conhecendo o DBT
 - Criando uma conta no DBT
 - Documentação do DBT
 - Casos de uso do DBT
 
-### ETL Ponta a Ponta - Módulo 10: Introdução ao BigQuery
+### ETL Ponta a Ponta - Módulo 11: Introdução ao BigQuery
 - Conhecendo o BigQuery
 - Criando uma conta no BigQuery
 - Documentação do BigQuery
 - Casos de uso do BigQuery
 
-### ETL Ponta a Ponta - Módulo 11: Transformação e Carregamento de Dados
+### ETL Ponta a Ponta - Módulo 12: Transformação e Carregamento de Dados
 - Transformando os dados na camada Trusted
 - Carregando os dados no BigQuery
 
-### ETL Ponta a Ponta - Módulo 12: Modelagem Dimensional e Carregamento na Camada Refined
+### ETL Ponta a Ponta - Módulo 13: Modelagem Dimensional e Carregamento na Camada Refined
 - Introdução ao modelo Star Schema
 - Criando dimensões
 - Criando tabelas de fatos
 
-### ETL Ponta a Ponta - Módulo 13: Monitoramento e Manutenção
+### ETL Ponta a Ponta - Módulo 14: Monitoramento e Manutenção
 - Configurando alertas e monitoramento
 - Manutenção do pipeline ETL
 - Boas práticas de manutenção e documentação
 
-### ETL Ponta a Ponta - Módulo 14: Projetos Práticos e Casos de Uso
+### ETL Ponta a Ponta - Módulo 15: Projetos Práticos e Casos de Uso
 - Implementando um projeto ETL do início ao fim
 - Desafios e soluções comuns em projetos ETL
 
