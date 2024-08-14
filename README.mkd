@@ -15,9 +15,9 @@ https://github.com/michellsspy/ETL-com-Dataflow-Apache-Beam-BigQuery-e-DBT.git
 - Acessando o GCP
 - Habilitando o Free Trial
 
-### ETL Ponta a Ponta - Módulo 2: Criando o banco de dados Postegrees
-- Criando a vm
-- Instalando o banco Postegrees
+### ETL Ponta a Ponta - Módulo 2: Criando o banco de dados Postegres
+- Criando a vm no Compute Engine
+- Instalando o banco Postegres
 - Criando o banco de dados
 
 ### ETL Ponta a Ponta - Módulo 3: Configuração do Ambiente
