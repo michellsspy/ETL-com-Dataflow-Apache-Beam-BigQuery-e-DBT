@@ -1,0 +1,66 @@
+Instale o PostgreSQL com pgAdmin4 no Ubuntu 20.04
+
+Etapa 1: Adicionar Repositório PostgreSQL
+
+# Crie a configuração do repositório de arquivos:
+
+sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $ (lsb_release -cs) -pgdg main"> /etc/apt/sources.list.d/pgdg.list'
+
+# Importe a chave de assinatura do repositório:
+
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+
+
+Etapa 2: atualize e instale o PostgreSQL
+
+# Atualize as listas de pacotes:
+sudo apt-get update
+
+# Instale a versão mais recente do PostgreSQL.
+# Se você quiser uma versão específica, use 'postgresql-12' ou semelhante em vez de 'postgresql':
+sudo apt-get -y install postgresql
+
+Etapa 3: Acessando PostgreSQL
+
+Depois de instalar o PostgreSQL, os comandos abaixo podem ser usados ​​para parar, iniciar, habilitar e verificar seu status
+
+sudo systemctl stop postgresql.service
+sudo systemctl start postgresql.service
+sudo systemctl enable postgresql.service
+sudo systemctl status postgresql.service
+
+Depois de instalado seu SGBD postgres, como criar seu 1° usuário?
+
+Primeiro entre com seu super usuário
+sudo su
+
+Entre no banco postgres.
+su postgres
+
+Depois entre com o comando:
+psql
+
+
+Etapa 4: crie seu usuário e senha PostgreSQL Linux
+
+Agora que está logado com o postgres vamos criar um primeiro usuário.
+CREATE USER nomedousuario SUPERUSER INHERIT CREATEDB CREATEROLE; 
+
+Depois entre com o comando:
+ALTER USER nomedousuario PASSWORD 'senha';
+
+
+Etapa 5: Instalação pgAdmin 4 (APT)
+
+Instale a chave pública para o repositório:
+sudo curl https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo apt-key add
+
+Crie o arquivo de configuração do repositório:
+sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main"> /etc/apt/sources.list.d/pgadmin4.list && apt update '
+
+Instale para os modos desktop e web:
+sudo apt install pgadmin4
+
+Caso não tenha sucesso entre na pagina oficial do postgres e pgadmin.
+https://www.pgadmin.org/download/pgadmin-4-apt/
+https://www.postgresql.org/download/linux/ubuntu/
